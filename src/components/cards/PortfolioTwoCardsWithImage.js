@@ -86,7 +86,7 @@ export default ({
     },
   ];
   return (
-    <Container>
+    <Container id="cases">
       <Content>
         <ThreeColumn>
           <HeadingColumn textOnLeft={textOnLeft}>

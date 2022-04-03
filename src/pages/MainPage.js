@@ -10,7 +10,7 @@ import Cases from "components/cards/PortfolioTwoCardsWithImage.js";
 import Blog from "components/blogs/ThreeColSimpleWithImageAndDashedBorder.js";
 import Testimonial from "components/testimonials/TwoColumnWithImageAndProfilePictureReview.js";
 // import FAQ from "components/faqs/SimpleWithSideImage.js";
-// import ContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
+import ContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
 import ContactMap from "components/contacts/ContactMap.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 // import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
@@ -19,7 +19,7 @@ export default () => (
   <AnimationRevealPage>
     <Hero />
     <Features />
-    <Cases name="cases" />
+    <Cases />
     <Testimonial
       heading="Отзывы"
       description="Here are what some of our amazing customers are saying about our marketing professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -60,7 +60,7 @@ export default () => (
     /> */}
     <Blog />
     <MainFeature />
-    {/* <ContactUsForm /> */}
+    <ContactUsForm />
     <ContactMap />
     <Footer />
   </AnimationRevealPage>

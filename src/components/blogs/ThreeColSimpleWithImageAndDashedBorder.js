@@ -69,7 +69,7 @@ export default ({ heading = "Статьи" }) => {
     },
   ];
   return (
-    <Container>
+    <Container id="blog">
       <Content>
         <HeadingInfoContainer>
           <HeadingTitle>{heading}</HeadingTitle>

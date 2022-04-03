@@ -77,7 +77,7 @@ export default ({
   textOnLeft = false,
 }) => {
   return (
-    <Container>
+    <Container id="about">
       <TwoColumn css={!imageInsideDiv && tw`md:items-center`}>
         <ImageColumn css={imageContainerCss}>
           {imageInsideDiv ? (
